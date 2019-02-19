@@ -1,0 +1,17 @@
+com\listen\generator\method\tools\MethodGeneratorTool.class
+com\listen\generator\method\backup\SelectPageKeyPlugin.class
+com\listen\generator\method\plugins\MysqlBatchUpdatePlugin.class
+com\listen\generator\method\plugins\BatchDeletePlugin.class
+com\listen\generator\method\plugins\BaseBatchOperatorPlugin.class
+com\listen\generator\method\tools\SqlMapperGeneratorTool.class
+com\listen\generator\method\backup\MySQLPageLimitPlugin.class
+com\listen\generator\method\plugins\OracleBatchUpdatePlugin.class
+com\listen\generator\method\plugins\OracleReturnKeyPlugin.class
+com\listen\generator\method\tools\BaseGenTool.class
+com\listen\generator\method\plugins\PostgreBatchUpdatePlugin.class
+com\listen\generator\method\plugins\BatchInsertPlugin.class
+com\listen\generator\method\backup\BatchInsertPlugin.class
+com\listen\generator\method\backup\OracelPageLimitPlugin.class
+com\listen\generator\method\plugins\PostGreSQLReturnKeyPlugin.class
+com\listen\generator\method\plugins\OverWriteXmlPlugin.class
+com\listen\generator\method\plugins\OracleBatchInsertPlugin.class
