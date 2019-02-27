@@ -21,8 +21,11 @@
         <plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
         <!-- 生成 JavaBean 对象重写 equals 和 hashCode 方法 -->
          <!--<plugin type="org.mybatis.method.plugins.EqualsHashCodePlugin" />-->
+
+        <!-- 使用Lombok插件 -->
+        <!--<plugin type="com.listen.generator.method.backup.LombokPlugin"/>-->
+
         <!--oracle批量插入-->
-        <!--<plugin type="com.hui.mybatis.plugins.MysqlBatchUpdatePlugin"/>-->
         <plugin type="com.listen.generator.method.plugins.BatchInsertPlugin"/>
         <plugin type="com.listen.generator.method.plugins.MysqlBatchUpdatePlugin"/>
         <!--<plugin type="com.hui.mybatis.plugins.OracleBatchUpdatePlugin"/>-->
