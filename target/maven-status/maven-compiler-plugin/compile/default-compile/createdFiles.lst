@@ -10,8 +10,10 @@ com\listen\generator\method\plugins\OracleReturnKeyPlugin.class
 com\listen\generator\method\tools\BaseGenTool.class
 com\listen\generator\method\plugins\PostgreBatchUpdatePlugin.class
 com\listen\generator\method\plugins\BatchInsertPlugin.class
+com\listen\generator\method\tools\MyCommentGenerator.class
 com\listen\generator\method\backup\BatchInsertPlugin.class
 com\listen\generator\method\backup\OracelPageLimitPlugin.class
 com\listen\generator\method\plugins\PostGreSQLReturnKeyPlugin.class
 com\listen\generator\method\plugins\OverWriteXmlPlugin.class
 com\listen\generator\method\plugins\OracleBatchInsertPlugin.class
+com\listen\generator\method\tools\MyCommentGenerator1.class

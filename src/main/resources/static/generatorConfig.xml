@@ -27,9 +27,11 @@
         <plugin type="com.listen.generator.method.plugins.MysqlBatchUpdatePlugin"/>
         <!--<plugin type="com.hui.mybatis.plugins.OracleBatchUpdatePlugin"/>-->
         <!--<plugin type="com.hui.mybatis.plugins.BatchDeletePlugin"/>-->
-        <!--去掉注释-->
-        <commentGenerator>
-            <property name="suppressAllComments" value="true"/>
+        <!--注释-->
+        <commentGenerator type="com.listen.generator.method.tools.MyCommentGenerator">
+            <!--<property name="suppressAllComments" value="false"/>-->
+            <!--生成的注释包含时间戳-->
+            <!--<property name="suppressDate" value="true"/>-->
         </commentGenerator>
         <!-- mysql 连接配置 -->
         <!--<jdbcConnection driverClass="com.mysql.jdbc.Driver"-->
@@ -39,9 +41,9 @@
         <!--</jdbcConnection>-->
         <!-- 必须要有的，使用这个配置链接数据库-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://127.0.0.1:3306/HCSP?characterEncoding=utf-8"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/sspg?characterEncoding=utf-8"
                         userId="root"
-                        password="123456">
+                        password="root">
             <!-- 这里面可以设置property属性，每一个property属性都设置到配置的Driver上 -->
         </jdbcConnection>
 
@@ -86,8 +88,8 @@
             <generatedKey column="id" sqlStatement="Mysql" identity="true" />
         </table>-->
 
-        <table tableName="blocknoinfo"
-                domainObjectName="blocknoinfo">
+        <table tableName="User"
+                domainObjectName="User">
                 <!--mapperName="SpaceShipControlRuleTypeMyBatisDao">-->
             <!--enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"-->
             <!--enableSelectByExample="false" selectByExampleQueryId="false">-->
