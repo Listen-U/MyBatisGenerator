@@ -28,8 +28,6 @@
         <!--oracle批量插入-->
         <plugin type="com.listen.generator.method.plugins.BatchInsertPlugin"/>
         <plugin type="com.listen.generator.method.plugins.MysqlBatchUpdatePlugin"/>
-        <!--<plugin type="com.hui.mybatis.plugins.OracleBatchUpdatePlugin"/>-->
-        <!--<plugin type="com.hui.mybatis.plugins.BatchDeletePlugin"/>-->
         <!--注释-->
         <commentGenerator type="com.listen.generator.method.tools.MyCommentGenerator">
             <!--<property name="suppressAllComments" value="false"/>-->

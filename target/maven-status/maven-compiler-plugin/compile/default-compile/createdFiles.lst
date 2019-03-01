@@ -1,6 +1,8 @@
+com\listen\generator\method\backup\LombokPlugin$Annotations.class
 com\listen\generator\method\tools\MethodGeneratorTool.class
 com\listen\generator\method\backup\SelectPageKeyPlugin.class
 com\listen\generator\method\plugins\MysqlBatchUpdatePlugin.class
+com\listen\generator\method\backup\LombokPlugin.class
 com\listen\generator\method\plugins\BatchDeletePlugin.class
 com\listen\generator\method\plugins\BaseBatchOperatorPlugin.class
 com\listen\generator\method\tools\SqlMapperGeneratorTool.class
